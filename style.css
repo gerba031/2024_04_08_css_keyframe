@@ -1,0 +1,40 @@
+div {
+    width: 100px;
+    height: 72px;
+    background-color: orange;
+    animation: animacija1 5s linear infinite;
+}
+
+@keyframes animacija1 {
+    0% {
+        top: 0px;
+        background: red;
+        width: 100px;
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    25% {
+        margin-left: 75px;
+        top: 500px;
+        background: yellow;
+        width: 400px;
+        height: 150px;
+    }
+
+    55% {
+        margin-bottom: 75px;
+        top: 700px;
+        background: yellow;
+        width: 20px;
+        height: 10px;
+    }
+
+    100% {
+        margin-right: 80px;
+        top: 200px;
+        background: rgb(255, 38, 0);
+        width: 50px;
+        height: 300px;
+    }
+}
